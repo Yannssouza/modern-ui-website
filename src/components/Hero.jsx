@@ -33,7 +33,9 @@ const Hero = () => (
         fees.
       </p>
     </div>
-    <div className={`flex flex-1 ${styles.flexCenter} relative my-10 md:my-0`}>
+    <div
+      className={`flex-1 flex-wrap ${styles.flexCenter} relative my-10 md:my-0`}
+    >
       <img
         src={robot}
         alt="billing"
